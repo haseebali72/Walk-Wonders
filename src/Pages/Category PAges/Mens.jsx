@@ -19,7 +19,7 @@ const Men = () => {
     <div className="flex flex-wrap">
       {mensProduct.map((p) => (
         <NavLink to='/product'>
-        <div key={p.id} className='w-64 h-84 m-2  hover:shadow-md transition-transform transform hover:translate-y-0.5'>
+        <div key={p.id} className='w-64 h-84 m-2  hover:shadow-lg transition-transform transform hover:translate-y-0.5'>
           <div className='w-auto h-auto flex'>
             <img className='' src={p.imageURL} alt={p.name} />
           </div>
