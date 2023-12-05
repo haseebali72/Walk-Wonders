@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 8px;
+    height: 40px;
+}
+
+.container ul{
+    display: flex;
+}
+.container ul li{
+    margin-left: 50px;
+}
+
+li a.active{
+    color: #ef4444;
+ }
+
+
+.searchWrap{
+    height: 11px;
+    float: left;
+    margin: 0 0px 0 20%;
+}
+
+.searchWrap input{
+    width: 80%;
+}
+
