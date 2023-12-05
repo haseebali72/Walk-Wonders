@@ -10,7 +10,7 @@ const cartSlice = createSlice({
                 switch (element.id) {
                     case action.payload.id:
                         isPresent = true
-                        break;
+                        break;   
                     default:
                         break;
                 }
